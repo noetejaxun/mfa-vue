@@ -15,7 +15,7 @@
       </ui5-card-header>
 
       <div class="card-content">
-        <!-- <ui5-button 
+        <ui5-button 
           design="Transparent" 
           slot="action"
           icon="action"
@@ -23,7 +23,7 @@
           Login con Google
         </ui5-button>
 
-        <ui5-label>O</ui5-label> -->
+        <ui5-label>O</ui5-label>
 	
         <ui5-input
           type="Email"

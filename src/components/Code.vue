@@ -56,6 +56,8 @@ import '@ui5/webcomponents-icons/dist/iphone';
 import '@ui5/webcomponents/dist/Card';
 import '@ui5/webcomponents/dist/Input';
 import '@ui5/webcomponents/dist/CardHeader';
+import '@ui5/webcomponents/dist/Button';
+import '@ui5/webcomponents/dist/Icon';
 
 export default {
   name: "CodeComponent",
@@ -99,8 +101,9 @@ export default {
       this.code[index] = currentValue;
 
       // const nextElement = event.currentTarget.nextSibling;
-      
-      this.changeFocus('input_', ( index + 1) )
+      if (currentValue !== "") {
+        this.changeFocus('input_', ( index + 1) )
+      }
 
     }
   }

@@ -1,6 +1,7 @@
 import {
     createUserWithEmailAndPassword,
-    getAuth, getMultiFactorResolver,
+    getAuth, 
+    getMultiFactorResolver,
     GoogleAuthProvider,
     multiFactor,
     PhoneAuthProvider,

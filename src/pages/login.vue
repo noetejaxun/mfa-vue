@@ -117,7 +117,7 @@ export default {
         window.sessionStorage.setItem('isLoggedIn', true);
         this.$forceUpdate();
       } else {
-        this.toast('Something went wrong.');
+        this.toast('Código incorrecto.');
       }
     }
 
